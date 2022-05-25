@@ -1,4 +1,4 @@
-body {margin: 0; overflow-x: hidden; font-family: 'jua'; }
+body {margin: 0; overflow-x: hidden; font-family: 'Noto Sans KR'; }
 ul {
     list-style: none;
     margin: 0;
@@ -75,7 +75,7 @@ img {
     position: relative;
 }
 .h_title {
-    font-size:  70px;
+    font-size:  60px;
     font-weight: 600;
     /* font-family: 'Do Hyeon'; */
     color: #084580;
@@ -138,7 +138,6 @@ img {
     position: relative;
 }
 .title {
-    font-family: 'Jua', sans-serif;
     font-size: 45px;
     font-weight: 600;
     color: white;
@@ -167,7 +166,6 @@ img {
     box-sizing: border-box;
 }
 .little_title {
-    font-family: 'Do Hyeon', sans-serif;
     font-size: 25px;
     font-weight: 400;
     padding: 15px 0;
@@ -175,7 +173,6 @@ img {
 .right,
 .font,
 .am_c_pro_text {
-    font-family: 'noto', 'sans-serif';
 }
 .am_l_education {
     margin-bottom: 50px;
@@ -272,7 +269,6 @@ img {
 .persent {
     color:white;
     font-size:23px;
-    font-family: 'Jua', sans-serif;
 }
 .per1 {
     width: 0;
@@ -318,9 +314,8 @@ img {
     z-index: 999;
 }
 .wp_name {
-    font-family: 'jua', 'sans-serif';
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 900;
     color: rgb(56 56 56);
 }
 .wp_v_description {
@@ -343,7 +338,6 @@ img {
     font-size: 20px;
     color: rgb(56 56 56);
     font-weight: 400;
-    font-family: 'Jua';
 }
 .wp_color {display: inline-block;}
 .wp_v_color {
@@ -353,20 +347,18 @@ img {
 }
 .wp_v_color * div {
     font-size: 14px;
-    font-weight: 400;
-    font-family: 'Jua';
+    font-weight: 500;
     color: rgb(56 56 56);
 }
 .mid_title {
     font-size:20px;
-    font-weight:600;
+    font-weight:800;
     color:rgb(55, 62, 80);
     
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .wp_v_text {
-    font-family: 'jua', 'sans-serif';
-    font-weight: 800;
+    font-weight: 600;
     font-size:20px;
     color:rgb(46, 46, 46);
 }
@@ -401,7 +393,6 @@ img {
     border-radius: 50%;
 }
 .btn {
-    width: 90px;
     height: auto;
     box-sizing: border-box;
     padding: 6px 12px;
@@ -410,7 +401,6 @@ img {
     display: inline-block;
 }
 .wp_v_des {
-    font-family: 'Jua';
     font-size: 19px;
     font-weight: 600;
     color: rgb(56 56 56);
