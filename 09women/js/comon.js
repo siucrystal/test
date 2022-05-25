@@ -69,7 +69,7 @@ $(document).ready(function(){
             for(let i=0; i< 10; i++) {
                 let popular = `
                             <li class="around_li">
-                            <a href="test.html?cate_no=${i}" class="around_a">
+                            <a href="product.html?cate_no=1&item_no=13" class="around_a">
                                 <div>
                                     <i class="around_item_no">${A_LIST[0][i].item_no}</i>
                                     <span class="around_title">${A_LIST[0][i].title}</span>
@@ -83,7 +83,7 @@ $(document).ready(function(){
             for(let i=0; i< 4; i++) {
                 let increase = `
                             <li class="around_li">
-                            <a href="test.html?cate_no=${i}" class="around_a">
+                            <a href="product.html?cate_no=1&item_no=13" class="around_a">
                                 <div>
                                     <i class="around_item_no">${A_LIST[1][i].item_no}</i>
                                     <span class="around_title">${A_LIST[1][i].title}</span>
