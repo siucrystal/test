@@ -24,7 +24,7 @@ function load_item(data , el, start_index, end_index) {
                             <a href="product.html?cate_no=${1}&item_no=${data[i].item_no}">
                                 <img src="./img/best_plus/${data[i].src}" alt="" class="item_img">
                             </a>
-                            <form name="item_shop" action="" class="item_shop_page">
+                            <form name="item_shop" action="#" class="item_shop_page">
                                 <select name="item_sec_color" id="color" class="sec_color">
                                     <option value="color">컬러선택</option>`;
 
@@ -93,12 +93,14 @@ $('.item_shop_basket').click(function(){
 
     // el.find('.item_shop_page').toggleClass('item_shop_page_active')
 console.log(111)
+// 장바구니
     if($(window).innerWidth() < 600) {
         $('.black_pan').addClass('black_pan_active');
 
         // 정보 넣기 - img, m_i_title, m_i_s_price
         let tmp_src = el.find('.item_img').prop('src');
         $('.m_i_main img').prop('src', tmp_src);
+        // $('.m_i_main img').append(`<img src="${tmp_src}" alt="dd">`)
  
         let tmp_title = el.find('.item_title').text() 
         // console.log(tmp_title);
