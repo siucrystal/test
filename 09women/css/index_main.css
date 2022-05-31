@@ -18,14 +18,14 @@
     position: relative;
     overflow: hidden;
     height: 38vw;
-    max-height: 745px;
+    /* max-height: 745px; */
 }
 .m_banner {
     position: absolute;
     width: 100%;
-    max-width: 1903px;
+    /* max-width: 1903px; */
     height: 100%;
-    max-height: 745px;
+    /* max-height: 745px; */
     overflow: hidden;
 }
 .m_banner > img {
